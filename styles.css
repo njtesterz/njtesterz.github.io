@@ -1,0 +1,29 @@
+/* Root warna biar gampang */
+:root {
+  --maxima-primary : #0056b3;
+  --maxima-secondary : #ffc107;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Genava, Verdana, Sans-Serif;
+  background-color: #f8f9fa;
+}
+
+/* Nav style */
+.navbar {
+  background-color: var(--maxima-primary);
+}
+  
+.navbar-brand {
+  font-weight: bold;
+  color: white !important;
+}
+
+.navbar-link {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+.navbar-link:hover, navbar-link.active {
+  color: white !important;
+}
+
